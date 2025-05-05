@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, front-page-post-form, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 5.6
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -137,6 +137,9 @@ Number:
     This will initiate Skype to call phone number 14044627491
 
 == Change log ==
+
+= 2.7.4 (Released: May 05, 2025) =
+* Updated: WordPress 6.8 ready
 
 = 2.7.3 (Released: September 02, 2024) =
 * Bug Fixed: Escaping author display name (Reported By Michael  https://patchstack.com)
