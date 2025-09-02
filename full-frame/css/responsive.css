@@ -35,21 +35,21 @@ Responsive Style
 	float: right;
 }
 
-.mobile-menu-anchor a.genericon-menu,
-.mobile-menu-anchor a.genericon-menu:hover {
+.mobile-menu-anchor a.fa-menu,
+.mobile-menu-anchor a.fa-menu:hover {
 	color: #eee;
 	text-decoration: none;
 }
 
-.nav-secondary .mobile-menu-anchor a.genericon-menu,
-.nav-secondary .mobile-menu-anchor a.genericon-menu:hover {
+.nav-secondary .mobile-menu-anchor a.fa-menu,
+.nav-secondary .mobile-menu-anchor a.fa-menu:hover {
 	color: #666;
 	text-decoration: none;
 }
 
-.mobile-header-left-nav-open #mobile-header-left-menu .genericon-menu:before,
-.mobile-secondary-nav-open #mobile-secondary-menu .genericon-menu:before,
-.mobile-header-right-nav-open #mobile-header-right-menu .genericon-menu:before {
+.mobile-header-left-nav-open #mobile-header-left-menu .fa-menu:before,
+.mobile-secondary-nav-open #mobile-secondary-menu .fa-menu:before,
+.mobile-header-right-nav-open #mobile-header-right-menu .fa-menu:before {
 	content: "\f406";
 }
 
@@ -134,7 +134,7 @@ Responsive Style
 }
 
 .sidr ul li {
-	display:block;
+	display: block;
 	margin: 0;
 	line-height: 48px;
 	border-top: 1px solid #4d4d4d;
@@ -228,7 +228,8 @@ Responsive Style
 .sidr input[type="tel"],
 .sidr input[type="time"],
 .sidr input[type="url"],
-.sidr textarea, .sidr select {
+.sidr textarea,
+.sidr select {
 	width: 100%;
 	font-size: 13px;
 	padding: 5px;
@@ -267,7 +268,7 @@ Responsive Style
 
 /* Start Mobile Menu level toggle support till level four */
 .sidr ul.sub-menu {
-    display: none;
+	display: none;
 }
 
 .sidr .menu-item-has-children a,
@@ -276,10 +277,11 @@ Responsive Style
 }
 
 .sidr .dropdown-toggle:after {
-	font-family: Genericons;
-    position: absolute;
-    right: 10px;
-    top: 18px;
+	font-family: 'Font Awesome 6 Free';
+	font-weight: 900;
+	position: absolute;
+	right: 10px;
+	top: 18px;
 }
 
 .sidr .menu-item-has-children .dropdown-toggle {
@@ -290,19 +292,23 @@ Responsive Style
 	right: 0;
 	padding: 25px;
 	box-shadow: unset;
-} 
-.sidr .menu-item-has-children .dropdown-toggle:focus, .sidr .menu-item-has-children .dropdown-toggle:hover {
+}
+
+.sidr .menu-item-has-children .dropdown-toggle:focus,
+.sidr .menu-item-has-children .dropdown-toggle:hover {
 	box-shadow: unset;
 }
+
 .sidr .sub-menu .menu-item-has-children .dropdown-toggle {
 	padding: 20.5px;
 }
+
 .sidr .menu-item-has-children {
 	position: relative;
 }
 
 .sidr .dropdown-toggle.toggled-on:after {
-    top: 10px;
+	top: 10px;
 }
 
 .sidr .dropdown-toggle:after,
@@ -362,6 +368,7 @@ Responsive Style
 .sidr .page_item_has_children li.menu-item-has-children li.menu-item-has-children li.menu-item-has-children li .sub-menu {
 	display: block;
 }
+
 /* End Mobile Menu level toggle support till level four */
 
 /*--------------------------------------------------------------
@@ -381,6 +388,7 @@ Responsive Style
 	.wrapper {
 		width: 1220px;
 	}
+
 	#main {
 		width: 840px;
 	}
@@ -397,17 +405,17 @@ Responsive Style
 	}
 
 	#main {
-	    width: 720px;
+		width: 720px;
 	}
 
 	#featured-content.layout-four .hentry,
 	#supplementary.four .widget-area {
-	    width: 25%;
+		width: 25%;
 	}
 
 	#featured-content.layout-three .hentry,
 	#supplementary.three .widget-area {
-	    width: 33.33%;
+		width: 33.33%;
 	}
 
 	#featured-content.layout-four .hentry:nth-child(4n+1),
@@ -430,12 +438,13 @@ Responsive Style
 	.wrapper {
 		width: 1040px;
 	}
+
 	#site-generator .wrapper {
-	    padding: 0 10px;
+		padding: 0 10px;
 	}
 
 	#masthead {
-	    padding: 15px 0;
+		padding: 15px 0;
 	}
 
 	#site-branding,
@@ -453,20 +462,20 @@ Responsive Style
 
 	#featured-content,
 	#supplementary {
-		padding-top:  15px;
+		padding-top: 15px;
 	}
 
 	.fullframe-nav-menu a,
 	.sidebar-header-right .widget_nav_menu a {
-	    padding: 10px 15px;
+		padding: 10px 15px;
 	}
 
 	#main {
-	    width: 680px;
+		width: 680px;
 	}
 
 	.sidebar-primary {
-	    width: 330px;
+		width: 330px;
 	}
 
 }
@@ -480,27 +489,27 @@ Responsive Style
 	}
 
 	#main {
-	    width: 600px;
+		width: 600px;
 	}
 
 	#feature-slider .cycle-prev,
 	#feature-slider:hover .cycle-prev {
-	    left: 40px;
-	    opacity: 1;
+		left: 40px;
+		opacity: 1;
 	}
 
 	#feature-slider .cycle-next,
 	#feature-slider:hover .cycle-next {
-	    right: 40px;
-	    opacity: 1;
+		right: 40px;
+		opacity: 1;
 	}
 
 	#feature-slider .cycle-prev:before,
 	#feature-slider .cycle-next:before {
 		font-size: 25px;
-	    line-height: 30px;
-	    width: 30px;
-	    height: 30px;
+		line-height: 30px;
+		width: 30px;
+		height: 30px;
 	}
 
 }
@@ -514,12 +523,12 @@ Responsive Style
 	}
 
 	#logo-icon {
-	    text-align: center;
-	    width: 612px;
+		text-align: center;
+		width: 612px;
 	}
 
 	.no-mobile-left-menu #logo-icon {
-    	margin-left: 44px;
+		margin-left: 44px;
 	}
 
 	.no-mobile-right-menu #logo-icon {
@@ -532,7 +541,7 @@ Responsive Style
 	}
 
 	#masthead {
-	    padding: 10px 0;
+		padding: 10px 0;
 	}
 
 	#feature-slider .entry-container {
@@ -540,23 +549,24 @@ Responsive Style
 	}
 
 	#site-branding {
-    	padding: 5px 10px 0 10px;
+		padding: 5px 10px 0 10px;
 	}
 
 	#masthead .sidebar-header-right {
-	    padding: 10px 10px 0;
+		padding: 10px 10px 0;
 	}
 
 	#promotion-message .right a {
-	    padding: 8px 15px;
+		padding: 8px 15px;
 	}
 
-	#featured-content, #supplementary {
-	    padding-top: 10px;
+	#featured-content,
+	#supplementary {
+		padding-top: 10px;
 	}
 
 	#featured-content .featured-heading-wrap {
-	    padding: 10px 10px 0;
+		padding: 10px 10px 0;
 	}
 
 	#feature-slider .entry-container,
@@ -587,24 +597,29 @@ Responsive Style
 		margin-top: 10px;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		margin-bottom: 5px;
 	}
 
 	p {
-	    margin-bottom: 10px;
+		margin-bottom: 10px;
 	}
 
 	.hentry .featured-image {
-	    margin-bottom: 15px;
+		margin-bottom: 15px;
 	}
 
 	.archive-post-wrap {
-	    padding-bottom: 10px;
+		padding-bottom: 10px;
 	}
 
 	.site-title {
-	    font-size: 30px;
+		font-size: 30px;
 	}
 
 	h1 {
@@ -649,7 +664,7 @@ Responsive Style
 	#main,
 	.no-sidebar.content-width #main,
 	.sidebar-primary {
-	    width: 100%;
+		width: 100%;
 	}
 
 	.sidebar-primary {
@@ -662,21 +677,21 @@ Responsive Style
 	#supplementary.four .widget-area,
 	#supplementary.three .widget-area,
 	#supplementary.two .widget-area {
-	    float: left;
-	    padding: 10px;
-	    width: 50%;
+		float: left;
+		padding: 10px;
+		width: 50%;
 	}
 
 	.one-column .layout-four .featured-content-wrap {
-	    margin-left: 0;
-	    width: 100%;
+		margin-left: 0;
+		width: 100%;
 	}
 
 	.one-column #featured-content.layout-four .hentry {
 		float: left;
 		margin-left: 0;
-	    padding: 10px;
-	    width: 50%;
+		padding: 10px;
+		width: 50%;
 	}
 
 	.sidebar-primary .widget:nth-child(2n+1),
@@ -698,7 +713,7 @@ Responsive Style
 	#site-logo,
 	#site-header {
 		display: block;
-	    float: none;
+		float: none;
 	}
 
 	.logo-left #site-header {
@@ -707,7 +722,7 @@ Responsive Style
 	}
 
 	.logo-right #site-header {
-		padding-top:  10px;
+		padding-top: 10px;
 		padding-right: 0;
 	}
 
@@ -717,15 +732,15 @@ Responsive Style
 
 	/* Sidebar Header Right */
 	.sidebar-header-right {
-	    clear: both;
-	    display: inline-block;
-	    float: none;
-	    text-align: center;
-	    width: 100%;
+		clear: both;
+		display: inline-block;
+		float: none;
+		text-align: center;
+		width: 100%;
 	}
 
 	.sidebar-header-right .widget-wrap {
-	    float: none;
+		float: none;
 	}
 
 	.mobile-header-left-nav-open #fixed-header {
@@ -733,7 +748,7 @@ Responsive Style
 	}
 
 	.mobile-header-right-nav-open #fixed-header {
-		left:  auto;
+		left: auto;
 		right: 260px;
 	}
 
@@ -753,7 +768,7 @@ Responsive Style
 	}
 
 	#site-branding {
-	    text-align: center;
+		text-align: center;
 	}
 
 	#mobile-secondary-menu {
@@ -762,55 +777,58 @@ Responsive Style
 	}
 
 	#mobile-footer-menu {
-	    border-top: 1px solid #eee;
-	    display: block;
-	    padding: 0 10px;
-	    width: 100%;
+		border-top: 1px solid #eee;
+		display: block;
+		padding: 0 10px;
+		width: 100%;
 	}
 
 	#feature-slider .cycle-prev,
 	#feature-slider:hover .cycle-prev {
-	    left: 20px;
-	    opacity: 1;
+		left: 20px;
+		opacity: 1;
 	}
 
 	#feature-slider .cycle-next,
 	#feature-slider:hover .cycle-next {
-	    right: 20px;
-	    opacity: 1;
+		right: 20px;
+		opacity: 1;
 	}
 
 	#feature-slider .cycle-prev:before,
 	#feature-slider .cycle-next:before {
-		font-size: 25px;
-	    line-height: 30px;
-	    width: 30px;
-	    height: 30px;
+		font-size: 20px;
+		line-height: 30px;
+		width: 30px;
+		height: 30px;
 	}
 }
 
 @media screen and (min-width:990px) {
-	 .menu-item-has-children .dropdown-toggle {
-		display:none;
+	.menu-item-has-children .dropdown-toggle {
+		display: none;
 	}
-	.sub-menu .menu-item-has-children > a::after {
-		position:absolute;
-		transform:rotate(270deg);
-		padding-top:10px;
+
+	.sub-menu .menu-item-has-children>a::after {
+		position: absolute;
+		transform: rotate(270deg);
+		padding-top: 10px;
 	}
-	.menu-item-has-children > a::after {
-		content: '\f431';
-		font-family: Genericons;
-		padding-left:10px;
+
+	.menu-item-has-children>a::after {
+		content: '\f107';
+		font-family: 'Font Awesome 6 Free';
+		font-weight: 900;
+		padding-left: 10px;
 	}
 }
 
 /*--------------------------------------------------------------
 9. x <= 782px
 --------------------------------------------------------------*/
-@media screen and (max-width:782px){
+@media screen and (max-width:782px) {
 	.admin-bar #fixed-header {
-	    top: 45px;
+		top: 45px;
 	}
 }
 
@@ -823,7 +841,7 @@ Responsive Style
 	}
 
 	#logo-icon {
-	    width: 532px;
+		width: 532px;
 	}
 
 	#supplementary {
@@ -842,15 +860,16 @@ Responsive Style
 	}
 
 	#logo-icon {
-	    width: 432px;
+		width: 432px;
 	}
 
 	#footer-left-content,
 	#footer-right-content {
 		display: block;
 		text-align: center;
-	    width: 100%;
+		width: 100%;
 	}
+
 	#footer-right-content {
 		padding-top: 0;
 	}
@@ -866,9 +885,9 @@ Responsive Style
 	}
 
 	.admin-bar #fixed-header {
-		-moz-transition:    all 0.2s ease-in-out;
-	    -webkit-transition: all 0.2s ease-in-out;
-	    transition:         all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 
 	.admin-bar #fixed-header.is-sticky {
@@ -876,15 +895,15 @@ Responsive Style
 	}
 
 	#logo-icon {
-	    width: 392px;
+		width: 392px;
 	}
 
 	#feature-slider .entry-container {
-	    padding: 5px;
+		padding: 5px;
 	}
 
 	.site-title {
-	    font-size: 26px;
+		font-size: 26px;
 	}
 
 	h1 {
@@ -926,7 +945,7 @@ Responsive Style
 	}
 
 	#feature-slider .cycle-pager span {
-	    font-size: 40px;
+		font-size: 40px;
 	}
 
 }
@@ -940,7 +959,7 @@ Responsive Style
 	}
 
 	#logo-icon {
-	    width: 332px;
+		width: 332px;
 	}
 
 	body,
@@ -948,7 +967,7 @@ Responsive Style
 	input,
 	select,
 	textarea {
-	    font-size: 14px;
+		font-size: 14px;
 	}
 
 	button,
@@ -959,7 +978,7 @@ Responsive Style
 	}
 
 	.site-title {
-	    font-size: 24px;
+		font-size: 24px;
 	}
 
 	h1 {
@@ -997,8 +1016,8 @@ Responsive Style
 	}
 
 	#feature-slider .entry-title {
-	    font-size: 16px;
-	    margin-bottom: 0;
+		font-size: 16px;
+		margin-bottom: 0;
 	}
 
 }
@@ -1012,16 +1031,17 @@ Responsive Style
 	}
 
 	#logo-icon {
-	    width: 272px;
+		width: 272px;
 	}
 
 	#site-branding {
 		padding-top: 0;
 	}
 
-	#content-prev, #content-next {
-	    font-size: 20px;
-	    line-height: 10px;
+	#content-prev,
+	#content-next {
+		font-size: 20px;
+		line-height: 10px;
 	}
 
 	#content .has-post-thumbnail .archive-post-wrap .featured-image,
@@ -1035,8 +1055,8 @@ Responsive Style
 	#supplementary.two .widget-area,
 	.one-column #featured-content.layout-four .hentry {
 		display: block;
-	    float: none;
-	    width: 100%;
+		float: none;
+		width: 100%;
 	}
 
 	#promotion-message .section {
@@ -1051,8 +1071,9 @@ Responsive Style
 		padding-top: 0;
 	}
 
-	.entry-meta, .site-description {
-	    font-size: 12px;
+	.entry-meta,
+	.site-description {
+		font-size: 12px;
 	}
 
 	#site-generator {
@@ -1071,7 +1092,7 @@ Responsive Style
 	}
 
 	#logo-icon {
-	    width: 70%;
+		width: 70%;
 	}
 
 	#masthead {
@@ -1084,7 +1105,7 @@ Responsive Style
 --------------------------------------------------------------*/
 @media screen and (max-width: 319px) {
 	#logo-icon {
-	    width: 55%;
+		width: 55%;
 	}
 
 	#site-branding,
@@ -1092,8 +1113,8 @@ Responsive Style
 	.mobile-menu-two #site-branding {
 		clear: both;
 		display: block;
-	    padding: 0;
-	    width: 100%;
+		padding: 0;
+		width: 100%;
 	}
 
 	#masthead .sidebar-header-right {
@@ -1106,7 +1127,7 @@ Responsive Style
 	input,
 	select,
 	textarea {
-	    font-size: 13px;
+		font-size: 13px;
 	}
 
 	button,
@@ -1117,7 +1138,7 @@ Responsive Style
 	}
 
 	.site-title {
-	    font-size: 22px;
+		font-size: 22px;
 	}
 
 	h1 {
@@ -1155,8 +1176,8 @@ Responsive Style
 	}
 
 	#feature-slider .entry-title {
-	    font-size: 14px;
-	    margin-bottom: 0;
+		font-size: 14px;
+		margin-bottom: 0;
 	}
 
 }
@@ -1165,6 +1186,7 @@ Responsive Style
 17. Form Zoom Fix
 --------------------------------------------------------------*/
 @media screen and (-webkit-min-device-pixel-ratio:0) {
+
 	select:focus,
 	textarea:focus,
 	input:focus,
@@ -1176,6 +1198,6 @@ Responsive Style
 	input[type="url"],
 	input[type="password"],
 	textarea {
- 		font-size: 16px;
-  	}
+		font-size: 16px;
+	}
 }

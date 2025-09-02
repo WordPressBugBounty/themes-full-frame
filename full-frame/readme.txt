@@ -1,7 +1,7 @@
 === Full Frame ===
 Contributors: catchthemes
 Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, front-page-post-form, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
-Requires at least: 5.6
+Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
@@ -88,6 +88,7 @@ Full Frame has social icons for various social networking sites.
 Note: By default social links will be added in Header Right Section. You can also add that in your sidebar from "Appearance -> Widgets"
 
 Available icons:
+* Bluesky
 * Codepen
 * Digg
 * Dribbble
@@ -107,11 +108,14 @@ Available icons:
 * RSS Feed
 * Spotify
 * StumbleUpon
+* Threads
+* Tiktok
 * Tumblr
 * Twitch
 * Twitter
 * Vimeo
 * WordPress
+* X-Twitter
 * YouTube
 
 Skype Link:
@@ -137,6 +141,11 @@ Number:
     This will initiate Skype to call phone number 14044627491
 
 == Change log ==
+
+= 2.8 (Released: September 02, 2025) =
+* Added: Tiktok, Twitter-X, Bluesky, Threads, and Tel icons
+* Removed: PollDaddy Icon
+* Replaced: Genericons library to Font Awesome
 
 = 2.7.4 (Released: May 05, 2025) =
 * Updated: WordPress 6.8 ready
@@ -379,7 +388,7 @@ Number:
 
 == Copyright ==
 
-Full Frame WordPress Theme, Copyright 2012-2023 Catchthemes.com
+Full Frame WordPress Theme, Copyright 2012-2025 Catchthemes.com
 Full Frame is distributed under the terms of the GNU General Public License v3
 
 == Resources ==
@@ -394,9 +403,9 @@ Featured Content Background Image: http://www.pexels.com/photo/2286/
 All other images are self shot image by (CatchThemes.com)
 
 * Font Icons
-    Genericons by Automattic, Inc.
-    Genericons is Licensed under the GPL, version 2 or later
-    http://genericons.com/
+    Font Awesome Free License
+    Full Font Awesome Free license: https://fontawesome.com/license/free.
+
 
 * JS Files
     HTML5-Shiv is Licensed under the MIT and GPL licenses
@@ -410,4 +419,3 @@ All other images are self shot image by (CatchThemes.com)
 
     Sidr is Licensed under the MIT License
     https://github.com/artberri/sidr
-

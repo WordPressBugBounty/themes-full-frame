@@ -8,7 +8,7 @@ body {
 
 #masthead {
     background-color: #000;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     border-color: #191919;
 }
 
@@ -18,16 +18,16 @@ input,
 select,
 textarea,
 .site-title a,
-.entry-title, 
+.entry-title,
 .entry-title a,
 a:hover,
 a:focus,
 a:active,
-.fullframe-nav-menu a, 
+.fullframe-nav-menu a,
 .sidebar-header-right .widget_nav_menu a,
-.site .widget_fullframe_social_icons .genericon,
-.site .mobile-menu-anchor a.genericon-menu, 
-.site .mobile-menu-anchor a.genericon-menu:hover,
+.site .widget_fullframe_social_icons .font-awesome,
+.site .mobile-menu-anchor a.fa-menu,
+.site .mobile-menu-anchor a.fa-menu:hover,
 #nav-below .wp-pagenavi span.pages,
 #promotion-message .right a:hover {
     color: #bebebe;
@@ -41,27 +41,27 @@ a,
 #breadcrumb-list a span,
 #infinite-handle span,
 #nav-below .wp-pagenavi a,
-#nav-below .wp-pagenavi span, 
+#nav-below .wp-pagenavi span,
 .page-links span,
 .fullframe-nav-menu li a:hover,
 .fullframe-nav-menu li a:focus,
 .sidebar-header-right .widget_nav_menu li a:hover,
 .sidebar-header-right .widget_nav_menu li a:focus,
-.fullframe-nav-menu li:hover > a,
-.sidebar-header-right .widget_nav_menu li:hover > a,
-.fullframe-nav-menu .current-menu-item > a, 
-.fullframe-nav-menu .current-menu-ancestor > a,
-.fullframe-nav-menu .current_page_item > a, 
-.fullframe-nav-menu .current_page_ancestor > a,
-.sidebar-header-right .widget_nav_menu .current-menu-item > a, 
-.sidebar-header-right .widget_nav_menu .current-menu-ancestor > a,
+.fullframe-nav-menu li:hover>a,
+.sidebar-header-right .widget_nav_menu li:hover>a,
+.fullframe-nav-menu .current-menu-item>a,
+.fullframe-nav-menu .current-menu-ancestor>a,
+.fullframe-nav-menu .current_page_item>a,
+.fullframe-nav-menu .current_page_ancestor>a,
+.sidebar-header-right .widget_nav_menu .current-menu-item>a,
+.sidebar-header-right .widget_nav_menu .current-menu-ancestor>a,
 .fullframe-nav-menu .sub-menu li a:hover,
 .fullframe-nav-menu .sub-menu li a:focus,
 .fullframe-nav-menu .children li a:hover,
 .fullframe-nav-menu .children li a:focus,
 .sidebar-header-right .widget_nav_menu .sub-menu li a:hover,
 .sidebar-header-right .widget_nav_menu .sub-menu li a:focus,
-.site .widget_fullframe_social_icons .genericon-wordpress:hover,
+.site .widget_fullframe_social_icons .fa-wordpress:hover,
 #promotion-message .right a {
     color: #a92f41;
 }
@@ -70,16 +70,16 @@ a,
     border-color: #a92f41;
 }
 
-.sidebar-header-right .menu .sub-menu a, 
 .sidebar-header-right .menu .sub-menu a,
-.site .widget_fullframe_social_icons .genericon,
-mark, 
+.sidebar-header-right .menu .sub-menu a,
+.site .widget_fullframe_social_icons .,
+mark,
 ins,
 pre,
 .entry-content code,
 #breadcrumb-list .wrapper,
 #infinite-handle span,
-#nav-below .wp-pagenavi a, 
+#nav-below .wp-pagenavi a,
 #nav-below .wp-pagenavi span,
 #promotion-message .right a,
 .rtl blockquote {
@@ -98,7 +98,7 @@ pre,
 #featured-content.border-top,
 #feature-heading,
 .page-header .page-title,
-.archive-post-wrap, 
+.archive-post-wrap,
 .page-header .page-title {
     border-color: #191919;
 }
@@ -107,11 +107,12 @@ pre,
 .nav-footer a {
     color: #ccc;
 }
-.nav-secondary li:hover > a,
+
+.nav-secondary li:hover>a,
 .nav-secondary li a:hover,
 .nav-secondary li a:focus,
-.nav-secondary .current-menu-item > a, 
-.nav-secondary .current-menu-ancestor > a,
+.nav-secondary .current-menu-item>a,
+.nav-secondary .current-menu-ancestor>a,
 .nav-secondary .sub-menu li a:hover,
 .nav-secondary .sub-menu li a:focus,
 .nav-footer ul.menu li.current-menu-item a,
@@ -120,7 +121,7 @@ pre,
 }
 
 .nav-secondary,
-.nav-secondary .menu .sub-menu a, 
+.nav-secondary .menu .sub-menu a,
 .nav-secondary .menu .children a,
 .nav-secondary .menu .sub-menu .sub-menu,
 .nav-secondary .menu .children .children,
@@ -131,7 +132,7 @@ pre,
     background-color: #111;
 }
 
-.nav-secondary .menu .sub-menu a, 
+.nav-secondary .menu .sub-menu a,
 .nav-secondary .menu .children a,
 .nav-secondary .menu .sub-menu .sub-menu,
 .nav-secondary .menu .children .children,
@@ -140,6 +141,6 @@ pre,
     border-color: #181818;
 }
 
-.site .widget_fullframe_social_icons .genericon {
+.site .widget_fullframe_social_icons .font-awesome {
     border-color: #111;
 }
