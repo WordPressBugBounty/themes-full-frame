@@ -29,11 +29,11 @@ if ( ! function_exists( 'fullframe_custom_header' ) ) :
 		'default-text-color'     => '404040',
 
 		// Header image default
-		'default-image'			=> trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/slider1-1680x720.jpg',
+		'default-image'			=> trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'images/gallery/slider1-1920x823.jpg',
 
 		// Set height and width, with a maximum value for the width.
-		'height'                 => 720,
-		'width'                  => 1680,
+		'height'                 => 823,
+		'width'                  => 1920,
 
 		// Support flexible height and width.
 		'flex-height'            => true,

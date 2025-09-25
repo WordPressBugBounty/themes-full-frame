@@ -71,7 +71,7 @@ if (! function_exists('fullframe_setup')) :
 		add_image_size('fullframe-featured-content', 400, 225, true); // used in Featured Content Options Ratio 16:9
 
 		// Used for Featured Slider Ratio 21:9
-		add_image_size('fullframe-slider', 1680, 720, true);
+		add_image_size('fullframe-slider', 1920, 823, true);
 
 		//Used For Archive Landescape Ratio 16:9
 		add_image_size('fullframe-featured', 860, 484, true);

@@ -50,7 +50,7 @@ Responsive Style
 .mobile-header-left-nav-open #mobile-header-left-menu .fa-menu:before,
 .mobile-secondary-nav-open #mobile-secondary-menu .fa-menu:before,
 .mobile-header-right-nav-open #mobile-header-right-menu .fa-menu:before {
-	content: "\f406";
+	content: "\f00d";
 }
 
 .sidr {
@@ -284,6 +284,10 @@ Responsive Style
 	top: 18px;
 }
 
+.sidr .sub-menu .dropdown-toggle:after {
+	top: 13px;
+}
+
 .sidr .menu-item-has-children .dropdown-toggle {
 	background: transparent;
 	border: 0;
@@ -307,9 +311,9 @@ Responsive Style
 	position: relative;
 }
 
-.sidr .dropdown-toggle.toggled-on:after {
+/* .sidr .dropdown-toggle.toggled-on:after {
 	top: 10px;
-}
+} */
 
 .sidr .dropdown-toggle:after,
 .sidr .menu-item-has-children li.dropdown-toggle:after,
@@ -318,7 +322,7 @@ Responsive Style
 .sidr .page_item_has_children li.menu-item-has-children li.dropdown-toggle:after,
 .sidr .menu-item-has-children li.menu-item-has-children li.menu-item-has-children li.dropdown-toggle:after,
 .sidr .page_item_has_children li.menu-item-has-children li.menu-item-has-children li.dropdown-toggle:after {
-	content: "\f502";
+	content: "\f078";
 }
 
 .sidr .dropdown-toggle.toggled-on:after,
@@ -328,7 +332,7 @@ Responsive Style
 .sidr .page_item_has_children li.menu-item-has-children li.dropdown-toggle .toggled-on:after,
 .sidr .menu-item-has-children li.menu-item-has-children li.menu-item-has-children li.dropdown-toggle .toggled-on:after,
 .sidr .page_item_has_children li.menu-item-has-children li.menu-item-has-children li.dropdown-toggle .toggled-on:after {
-	content: "\f500";
+	content: "\f077";
 }
 
 .sidr .menu-item-has-children li a:after,
@@ -584,7 +588,7 @@ Responsive Style
 		padding: 10px;
 	}
 
-	.genericon-menu {
+	.fa-menu {
 		padding: 12px;
 	}
 
@@ -759,11 +763,11 @@ Responsive Style
 		display: none;
 	}
 
-	.nav-secondary .mobile-menu-anchor a.genericon-menu {
+	.nav-secondary .mobile-menu-anchor a.fa-menu {
 		display: block;
 	}
 
-	.mobile-secondary-nav-open .nav-secondary .mobile-menu-anchor a.genericon-menu {
+	.mobile-secondary-nav-open .nav-secondary .mobile-menu-anchor a.fa-menu {
 		display: inline-block;
 	}
 

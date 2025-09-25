@@ -142,6 +142,10 @@ Number:
 
 == Change log ==
 
+= 2.8.1 (Released: September 25, 2025) =
+* Bug Fixed: Mobile menu and dropdown toggle icon not showing
+* Updated: Image size of Header Media, Slider and No Featured Image
+
 = 2.8 (Released: September 02, 2025) =
 * Added: Tiktok, Twitter-X, Bluesky, Threads, and Tel icons
 * Removed: PollDaddy Icon
@@ -395,7 +399,7 @@ Full Frame is distributed under the terms of the GNU General Public License v3
 
 * Images used are released under the CC0 license
 Slider Image 1: http://pixabay.com/en/photography-photo-camera-olympus-407218/
-Slider Image 2: http://pixabay.com/en/photographer-photo-camera-camera-455747/
+Slider Image 2: https://unsplash.com/photos/person-holding-black-yashica-fx-9-camera-1z1F5Qc30Bs
 Featured Content Background Image: http://www.pexels.com/photo/2286/
 1st Featured Content Image: http://pixabay.com/en/central-park-new-york-city-benches-535645/
 2nd Featured Content Image: http://pixabay.com/en/clock-city-antique-architecture-426079/
