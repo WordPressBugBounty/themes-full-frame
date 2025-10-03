@@ -142,6 +142,9 @@ Number:
 
 == Change log ==
 
+= 2.8.2 (Released: October 02, 2025) =
+* Updated: CSS for mobile menu button
+
 = 2.8.1 (Released: September 25, 2025) =
 * Bug Fixed: Mobile menu and dropdown toggle icon not showing
 * Updated: Image size of Header Media, Slider and No Featured Image

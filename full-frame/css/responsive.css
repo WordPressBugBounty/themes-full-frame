@@ -589,7 +589,9 @@ Responsive Style
 	}
 
 	.fa-menu {
-		padding: 12px;
+		display: block;
+		line-height: 1;
+		padding: 8px 13px 12px;
 	}
 
 	.hentry,
